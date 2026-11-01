@@ -10,8 +10,8 @@ desplazamiento de parámetros. Si la varianza de esa derivada cae
 exponencialmente con n, el paisaje es una "meseta": casi plano en todos lados.
 
 Se comparan dos casos:
-  - circuito profundo + costo global (Z en todos los qubits): meseta estéril
-  - circuito corto + costo local (Z en un qubit): la varianza no colapsa
+  - circuito profundo + costo global (σz en todos los qubits): meseta estéril
+  - circuito corto + costo local (σz en un qubit): la varianza no se apaga
 
 Genera: salidas/mesetas_esteriles.png
 """
@@ -42,6 +42,7 @@ def crear_circuito(n, capas, local):
                 # Rotación en un eje elegido al azar (X, Y o Z), como en McClean et al.
                 [qml.RX, qml.RY, qml.RZ][ejes[c, i]](angulos[c, i], wires=i)
             for i in range(n - 1):
+                # CZ = compuerta de fase controlada CPH(π): entrelaza qubits vecinos
                 qml.CZ(wires=[i, i + 1])
         return qml.expval(observable)
 

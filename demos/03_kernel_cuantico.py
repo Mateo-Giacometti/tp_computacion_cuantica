@@ -4,8 +4,9 @@ Basado en Havlíček et al., "Supervised learning with quantum-enhanced feature
 spaces", Nature 567, 209 (2019). https://arxiv.org/abs/1804.11326
 
 Cada punto x se codifica en un estado |φ(x)⟩ con una codificación tipo IQP
-(rotaciones Z más interacciones ZZ, como el "ZZ feature map" de IBM). El
-kernel es k(x, x') = |⟨φ(x)|φ(x')⟩|². En hardware real se estima midiendo la
+(Hadamard en cada qubit, corrimientos de fase que dependen de x y una rotación
+ZZ que entrelaza los qubits, como el "ZZ feature map" de IBM). El kernel es el
+módulo al cuadrado del braket: k(x, x') = |⟨φ(x)|φ(x')⟩|². En hardware real se estima midiendo la
 probabilidad de volver a |00⟩ tras U(x) y U†(x'); acá, como simulamos, lo
 calculamos directamente con los vectores de estado (da el mismo número).
 

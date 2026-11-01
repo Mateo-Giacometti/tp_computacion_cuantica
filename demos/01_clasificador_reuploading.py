@@ -40,12 +40,14 @@ dev = qml.device("default.qubit", wires=1)
 
 @qml.qnode(dev)
 def circuito(params, x1, x2):
-    # Cada capa: rotación general cuyos ángulos dependen del dato (w * x + b).
+    # Cada capa: rotación general en la esfera de Bloch, Rot(a, b, c) = R_Z(c) R_Y(b) R_Z(a),
+    # cuyos ángulos dependen del dato (w * x + b).
     # x1 y x2 pueden ser vectores: PennyLane evalúa todos los puntos a la vez.
     for capa in range(CAPAS):
         w, b = params[capa, 0], params[capa, 1]
         qml.Rot(w[0] * x1 + b[0], w[1] * x2 + b[1], b[2], wires=0)
-    return qml.expval(qml.PauliZ(0))  # +1 = adentro, -1 = afuera
+    # Valor medio del observable σz: autovalor +1 = adentro, -1 = afuera
+    return qml.expval(qml.PauliZ(0))
 
 
 def costo(params, x, y):
@@ -70,7 +72,7 @@ def dibujar_frontera(params, x, y, titulo, archivo):
     ax.scatter(x[:, 0], x[:, 1], c=y, cmap="RdBu", edgecolors="k", s=18)
     ax.set_title(titulo)
     ax.set_aspect("equal")
-    fig.savefig(archivo, dpi=90, bbox_inches="tight")
+    fig.savefig(archivo, dpi=140, bbox_inches="tight")
     plt.close(fig)
 
 
