@@ -1,0 +1,4 @@
+pennylane>=0.45
+matplotlib
+scikit-learn
+pillow
