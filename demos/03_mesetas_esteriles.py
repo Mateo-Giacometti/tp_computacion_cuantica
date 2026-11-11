@@ -1,4 +1,4 @@
-"""Demo 2: mesetas estériles (barren plateaus) medidas por nosotros.
+"""Demo 3: mesetas estériles (barren plateaus) medidas por nosotros.
 
 Reproduce en pequeño el resultado de McClean et al., "Barren plateaus in
 quantum neural network training landscapes", Nat. Commun. 9, 4812 (2018).

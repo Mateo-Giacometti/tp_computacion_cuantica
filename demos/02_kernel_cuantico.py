@@ -1,4 +1,4 @@
-"""Demo 3: SVM con kernel cuántico (QSVC) vs. SVM clásica.
+"""Demo 2: SVM con kernel cuántico (QSVC) vs. SVM clásica.
 
 Basado en Havlíček et al., "Supervised learning with quantum-enhanced feature
 spaces", Nature 567, 209 (2019). https://arxiv.org/abs/1804.11326
