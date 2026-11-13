@@ -27,3 +27,4 @@ haber ventaja cuántica. La presentación oral dura unos 20 minutos.
 
 - Completar los nombres de los integrantes, la universidad y la fecha en la
   portada y en la diapositiva de preguntas.
+- pingaaaa
