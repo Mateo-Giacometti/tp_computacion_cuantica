@@ -1,15 +1,12 @@
-# Entornos y caché de Python
+# Python environments and caches
 .venv/
 venv/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Archivos temporales de Office y del sistema
-~$*
-.~lock.*#
+# OS and editor temporary files
 .DS_Store
 Thumbs.db
-
-# Cuadros intermedios que genera la demo 1 antes de armar el GIF
-demos/salidas/_cuadro_*.png
+~$*
+.~lock.*#
