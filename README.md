@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://pennylane.ai/"><img src="https://img.shields.io/badge/PennyLane-%E2%89%A50.45-7C3AED?style=flat&logo=python&logoColor=white" alt="PennyLane" /></a>
-  <a href="https://colab.research.google.com/"><img src="https://img.shields.io/badge/Google%20Colab-Demos%20interactivas-F9AB00?style=flat&logo=googlecolab&logoColor=white" alt="Google Colab" /></a>
+  <a href="#demos-interactivas"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a>
   <a href="https://scikit-learn.org/"><img src="https://img.shields.io/badge/scikit--learn-baselines%20cl%C3%A1sicos-F7931E?style=flat&logo=scikitlearn&logoColor=white" alt="scikit-learn" /></a>
 </p>
 
