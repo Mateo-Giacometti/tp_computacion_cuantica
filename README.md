@@ -1,6 +1,7 @@
 # Quantum Machine Learning
 
 <p align="center">
+  <a href="https://docs.google.com/presentation/d/1T2Wla7Oy8PatzK5Ip1wFgorBOEfM1GCIAieR9xIqAno/edit"><img src="https://img.shields.io/badge/Google%20Slides-Presentaci%C3%B3n-F4B400?style=flat&logo=googleslides&logoColor=white" alt="Presentación en Google Slides" /></a>
   <a href="https://pennylane.ai/"><img src="https://img.shields.io/badge/PennyLane-%E2%89%A50.45-7C3AED?style=flat&logo=python&logoColor=white" alt="PennyLane" /></a>
   <a href="#demos-interactivas"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a>
   <a href="https://scikit-learn.org/"><img src="https://img.shields.io/badge/scikit--learn-baselines%20cl%C3%A1sicos-F7931E?style=flat&logo=scikitlearn&logoColor=white" alt="scikit-learn" /></a>
@@ -11,6 +12,8 @@
 </p>
 
 Simulaciones reproducibles y notebooks interactivos sobre tres arquitecturas centrales de **Quantum Machine Learning** — **QSVC**, **QNN** y **QCNN** — implementadas en [PennyLane](https://pennylane.ai/) junto con sus comparativas clásicas en `scikit-learn`.
+
+**Presentación:** [Ver diapositivas en Google Slides](https://docs.google.com/presentation/d/1T2Wla7Oy8PatzK5Ip1wFgorBOEfM1GCIAieR9xIqAno/edit)
 
 ---
 
