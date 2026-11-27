@@ -16,13 +16,13 @@ Simulaciones reproducibles y notebooks interactivos sobre tres arquitecturas cen
 
 ## Demos interactivas
 
-Cada notebook ya está ejecutado con todas sus salidas y gráficos embebidos, y puede correrse en un clic desde Google Colab (clona este repositorio e instala PennyLane automáticamente).
-
 | Modelo | Notebook | Contenido | Google Colab |
 | :--- | :--- | :--- | :---: |
 | **QSVC** | [`qsvc.ipynb`](qsvc/notebooks/qsvc.ipynb) | *Quantum kernels*, esfera de Bloch, sesgo inductivo, *Quantum Kernel Alignment*, concentración exponencial y ruido de *shots*. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mateo-Giacometti/tp_computacion_cuantica/blob/main/qsvc/notebooks/qsvc.ipynb) |
 | **QNN** | [`qnn.ipynb`](qnn/notebooks/qnn.ipynb) | *Ansatz* variacional ($R_Y, R_Z, \text{CNOT}$), estimación de $\langle Z \rangle$ con *shots*, *parameter shift*, clasificación XOR 2D y *barren plateaus*. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mateo-Giacometti/tp_computacion_cuantica/blob/main/qnn/notebooks/qnn.ipynb) |
 | **QCNN** | [`qcnn.ipynb`](qcnn/notebooks/qcnn.ipynb) | QCNN $8 \to 4 \to 2 \to 1$ para reconocimiento de fases en el modelo de Ising (**QQ**), dígitos `0` vs. `1` (**CQ**) y ausencia de *barren plateaus*. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mateo-Giacometti/tp_computacion_cuantica/blob/main/qcnn/notebooks/qcnn.ipynb) |
+
+*Nota: Cada notebook ya está ejecutado con todas sus salidas y gráficos embebidos, y puede correrse en un clic desde Google Colab (clona este repositorio e instala PennyLane automáticamente).*
 
 ---
 
